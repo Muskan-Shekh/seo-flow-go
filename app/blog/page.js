@@ -21,7 +21,7 @@ import Link from "next/link";
 //           {/* Left Scrollable Section */}
 //           <div className="w-full md:w-2/3 bg-white rounded-lg shadow-lg p-6">
 //             {/* Content Section */}
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 March 2023</span>
 //                 <span>⏱️ 10-12 Minutes</span>
@@ -46,7 +46,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 February 2023</span>
 //                 <span>⏱️ 20 minutes</span>
@@ -72,7 +72,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 January 2023</span>
 //                 <span>⏱️ 10-12 Minutes</span>
@@ -95,7 +95,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 23 December 2022</span>
 //                 <span>⏱️ 10-15 Minutes</span>
@@ -117,7 +117,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 November 2022</span>
 //                 <span>⏱️ 6-8 Minutes</span>
@@ -139,7 +139,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 October 2022</span>
 //                 <span>⏱️ 5-6 Minutes</span>
@@ -161,7 +161,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 September 2022</span>
 //                 <span>⏱️ 4-6 Minutes</span>
@@ -183,7 +183,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 August 2022</span>
 //                 <span>⏱️ 4-5 Minutes</span>
@@ -206,7 +206,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 July 2022</span>
 //                 <span>⏱️ 2-3 Minutes</span>
@@ -228,7 +228,7 @@ import Link from "next/link";
 //               </div>
 //             </div>
 
-//             <div className="mb-2">
+//             <div className="mb-10">
 //               <p className="text-gray-500 text-sm flex items-center gap-4">
 //                 <span>📅 25 June 2022</span>
 //                 <span>⏱️ 4-5 Minutes</span>
@@ -252,7 +252,7 @@ import Link from "next/link";
 //             </div>
 
 //             <div className="justify-center">
-//             <Pagination></Pagination>
+//               <Pagination></Pagination>
 //             </div>
 //           </div>
 
@@ -270,7 +270,7 @@ import Link from "next/link";
 //         </div>
 //       </div>
 //       <div className="p-5 m-4">
-//         <ul class="list-disc">
+//         <ul className="list-disc">
 //           <li>Privacy</li>
 //           <li>Terms</li>
 //           <li>Sitemap</li>
@@ -387,7 +387,7 @@ const BlogPage = () => {
           <div className="w-full md:w-2/3 bg-white rounded-lg shadow-lg p-6 justify-center">
             {/* Render the posts for the current page */}
             {currentPosts.map((post, index) => (
-              <div key={index} className="mb-2">
+              <div key={index} className="mb-10">
                 <p className="text-gray-500 text-sm flex items-center gap-4">
                   <span>📅 {post.date}</span>
                   <span>⏱️ 10-12 Minutes</span>
@@ -430,7 +430,7 @@ const BlogPage = () => {
         </div>
       </div>
       <div className="p-5 m-4">
-        <ul class="list-disc">
+        <ul className="list-disc">
           <li>Privacy</li>
           <li>Terms</li>
           <li>Sitemap</li>

@@ -103,6 +103,7 @@ const Header = ({ onButtonClick }) => {
                 <Image
                   src={arrowIcon}
                   style={{ width: "14px", height: "18px", marginTop: "5px" }}
+                  alt="arrow"
                 />
               </a>
               {isWhatsIncludedOpen && (
@@ -121,7 +122,7 @@ const Header = ({ onButtonClick }) => {
                     {isSEOOpen && (
                       <ul className="ml-4 mt-2 space-y-1">
                         <li className="hover:text-orange-400 cursor-pointer">
-                          Local SEO
+                        <Link href="/search-engine-optimisation/local-SEO">Local SEO</Link>
                         </li>
                         <li className="hover:text-orange-400 cursor-pointer">
                           National SEO
@@ -148,7 +149,7 @@ const Header = ({ onButtonClick }) => {
                     {isPPCOpen && (
                       <ul className="ml-4 mt-2 space-y-1">
                         <li className="hover:text-orange-400 cursor-pointer">
-                          Google Ads
+                           <Link href="/pay-per-click/google-ads">Google Ads</Link>
                         </li>
                         <li className="hover:text-orange-400 cursor-pointer">
                           Google Shopping
@@ -174,7 +175,8 @@ const Header = ({ onButtonClick }) => {
                     </button>
                     {isMarketingOpen && (
                       <div className="ml-4 mt-2">
-                        <p className="font-semibold">Marketing Plan + Quote</p>
+                        <p className="font-semibold hover:text-orange-400 cursor-pointer">
+                          <Link  href="/get-your-free-search/marketing-plan">Marketing Plan + Quote</Link></p>
                         <button className="mt-2 bg-blue-500 px-4 py-2 rounded-lg text-white font-semibold hover:bg-orange-600">
                           Get Started
                         </button>
